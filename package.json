@@ -1,0 +1,14 @@
+{
+  "name": "reviews-emailer",
+  "version": "1.0.0",
+  "description": "A reviews website that emails new reviews",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  }
+}
